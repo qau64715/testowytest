@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpensesSummary with expenses 1`] = `
+<div>
+  <p>
+    Expenses count: 
+    1
+  </p>
+  <p>
+    Expenses total: 
+    $32.22
+  </p>
+</div>
+`;
+
+exports[`should render ExpensesSummary with no expenses 1`] = `
+<div>
+  <p>
+    Expenses count: 
+    0
+  </p>
+  <p>
+    Expenses total: 
+    $0.00
+  </p>
+</div>
+`;
